@@ -1,0 +1,39 @@
+{
+  "name": "express-routes-generator-cli",
+  "version": "1.0.15",
+  "description": "line interface of express-routes-generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "bin": {
+    "express-routes-generator": "express-routes-generator-cli.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express-routes-generator": "^1.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0",
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "cli",
+    "generate",
+    "build",
+    "generator",
+    "API",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC"
+}
